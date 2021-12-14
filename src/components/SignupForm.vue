@@ -1,4 +1,5 @@
 <template>
+  <!-- Form -->
   <form>
     <label>Email: </label>
     <input type="email" required>
