@@ -13,14 +13,29 @@
     </select>
 
     <div class="terms">
-      <input type="checkbox" v-model="" required>
+      <input type="checkbox" v-model="terms" required>
       <label>Accept terms and conditions</label>
+    </div>
+
+    <div>
+      <input type="checkbox" value="Magnus" v-model="names">
+      <label>Magnus Carlsen</label>
+    </div>
+    <div>
+      <input type="checkbox" value="Fabiano" v-model="names">
+      <label>Fabiano Caruana</label>
+    </div>
+    <div>
+      <input type="checkbox" value="Ian" v-model="names">
+      <label>Ian Nepomniachtchi</label>
     </div>
 
   </form>
   <p>Email: {{ email }}</p>
   <p>Password: {{ password }}</p>
   <p>Role: {{ role }}</p>
+  <p>Terms Accepted: {{ terms }}</p>
+  <!-- <p>Names: {{ names }}</p> -->
 </template>
 
 <script>
@@ -29,7 +44,9 @@
       return {
         email: 'theoddoneout64@gmail.com',
         password: '37377373',
-        role: 'designer'
+        role: 'designer',
+        terms: false
+        // names: []
       }
     }
   }
