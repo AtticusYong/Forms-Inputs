@@ -1,5 +1,5 @@
 {
-  "name": "VueJS-with-Vite",
+  "name": "forms-and-inputs",
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
@@ -13,5 +13,7 @@
     "@vitejs/plugin-vue": "^1.2.4",
     "@vue/compiler-sfc": "^3.1.4",
     "vite": "^2.3.8"
-  }
+  },
+  "keywords": [],
+  "description": ""
 }
